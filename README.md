@@ -23,7 +23,7 @@ Upon opening the application, you will be greeted with the main interface where 
 7. **Clear Grid**: Click the "Clear" button to reset the grid.
 
 ## Screenshots
-<img align="center" alt="coding" width="650" src="https://github.com/nrkkR/Python_Sorting-Visualizer/blob/main/sorting%20visualizer.png">
+<img align="center" alt="coding" width="600" src="https://github.com/nrkkR/Javascript_Pathfinder-Visualizer/blob/main/pathfinder%20visualizer.png">
 
 
 ## Credits
