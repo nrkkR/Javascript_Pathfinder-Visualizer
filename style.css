@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 1200px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls label, .controls select, .controls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+#algorithm {
+    background-color: #61dafb;
+    color: black;
+}
+
+button {
+    background-color: #61dafb;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(20, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid-cell {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    transition: background-color 0.2s;
+}
+
+.grid-cell.start {
+    background-color: green;
+}
+
+.grid-cell.end {
+    background-color: red;
+}
+
+.grid-cell.wall {
+    background-color: black;
+}
+
+.grid-cell.visited {
+    background-color: yellow;
+}
+
+.grid-cell.path {
+    background-color: blue;
+}
